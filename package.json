@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-tfd",
+  "version": "1.0.0",
+  "description": "ESLint TFD config",
+  "main": "index.js",
+  "author": "Pieter Janssen <pieter.janssen@thefrontdoor.nl>",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
