@@ -1,4 +1,11 @@
 module.exports = {
+    parserOptions: {
+        ecmaVersion: 6
+    },
+    env: {
+        browser: true,
+        node: true
+    },
     rules: {
         'accessor-pairs': 2,
         'array-bracket-spacing': [ 2, 'always' ],
@@ -106,7 +113,6 @@ module.exports = {
         'no-whitespace-before-property': 2,
         'no-with': 2,
         'object-curly-spacing': [ 2, 'always' ],
-        'object-curly-newline': [ 2, { 'multiline': true } ],
         'object-property-newline': [ 2, { 'allowMultiplePropertiesPerLine': true } ],
         'operator-linebreak': [ 2, 'before' ],
         'one-var': [ 2, { 'initialized': 'never' } ],
