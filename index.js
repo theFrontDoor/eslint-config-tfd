@@ -1,13 +1,13 @@
 module.exports = {
     parserOptions: {
-        ecmaVersion: 6,
-
         // allow `import` and `export`
         sourceType: 'module'
     },
     env: {
         browser: true,
-        node: true
+        node: true,
+        commonjs: true,
+        es6: true
     },
     rules: {
         'accessor-pairs': 2,
