@@ -1,6 +1,9 @@
 module.exports = {
     parserOptions: {
-        ecmaVersion: 6
+        ecmaVersion: 6,
+
+        // allow `import` and `export`
+        sourceType: 'module'
     },
     env: {
         browser: true,
@@ -132,7 +135,7 @@ module.exports = {
         'unicode-bom': [ 2, 'never' ],
         'use-isnan': 2,
         'valid-typeof': 2,
-        'valid-jsdoc': [ 1, { 'preferType': { 'boolean': 'Boolean', 'number': 'Number', 'object': 'Object', 'string': 'String' }, 'requireReturn': true } ],
+        'valid-jsdoc': [ 1, { 'preferType': { 'boolean': 'Boolean', 'number': 'Number', 'object': 'Object', 'string': 'String', 'array': 'Array', 'function': 'Function' }, 'requireReturn': true } ],
         'wrap-iife': [ 2, 'any', { 'functionPrototypeMethods': true } ],
         'yield-star-spacing': [ 2, 'both' ],
         'yoda': [ 2, 'never' ]
