@@ -6,7 +6,7 @@ The tFD JS code style.
 
 ```
 npm i -g eslint
-nom i -g git+ssh://github.com/theFrontDoor/eslint-config-tfd
+npm i -g git+ssh://github.com/theFrontDoor/eslint-config-tfd
 ```
 
 ## Config
