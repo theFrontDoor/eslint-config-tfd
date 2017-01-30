@@ -122,7 +122,6 @@ module.exports = {
         'padded-blocks': [ 2, 'never' ],
         'quotes': [ 2, 'single', { 'avoidEscape': true } ],
         'rest-spread-spacing': [ 2, 'never' ],
-        'require-jsdoc': [ 1, { 'require': { 'FunctionDeclaration': true, 'MethodDefinition': true, 'ClassDeclaration': true } } ],
         'semi': [ 2, 'always' ],
         'semi-spacing': [ 2, { 'before': false, 'after': true } ],
         'space-before-blocks': [ 2, 'always' ],
