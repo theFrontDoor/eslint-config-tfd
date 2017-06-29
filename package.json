@@ -7,6 +7,6 @@
   "author": "Pieter Janssen <pieter.janssen@thefrontdoor.nl>",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "~4.1.0"
   }
 }
